@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Program Tylar/java/tools/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Program Tylar/java/tools/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/Program Tylar/java/tools/ezmorph-1.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/Program Tylar/java/tools/javaee6.jar"/>
+	<classpathentry kind="lib" path="D:/Program Tylar/java/tools/jdom.jar"/>
+	<classpathentry kind="lib" path="/MyBookStore/WebRoot/WEB-INF/lib"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
