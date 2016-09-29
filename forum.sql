@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : localhost_3306
-Source Server Version : 50528
+Source Server Version : 50534
 Source Host           : localhost:3306
 Source Database       : forum
 
 Target Server Type    : MYSQL
-Target Server Version : 50528
+Target Server Version : 50534
 File Encoding         : 65001
 
-Date: 2015-07-01 09:12:34
+Date: 2016-09-29 21:37:12
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -36,9 +36,9 @@ CREATE TABLE `comment` (
 -- Records of comment
 -- ----------------------------
 INSERT INTO `comment` VALUES ('1', '我回复了放假', '2015-06-30 09:52:30', '7', '7');
-INSERT INTO `comment` VALUES ('2', '啊啊罗浮山', '2015-06-29 10:07:33', '7', '7');
+INSERT INTO `comment` VALUES ('2', '啊啊第三方山', '2015-06-29 10:07:33', '7', '7');
 INSERT INTO `comment` VALUES ('3', 'eeeeee', '2015-06-30 16:30:03', '9', '7');
-INSERT INTO `comment` VALUES ('4', '罗建华爱李燕', '2015-06-30 16:42:54', '7', '7');
+INSERT INTO `comment` VALUES ('4', '好的任务发你防守打法', '2015-06-30 16:42:54', '7', '7');
 INSERT INTO `comment` VALUES ('5', '是吃撒地方', '2015-06-30 21:03:23', '7', '7');
 INSERT INTO `comment` VALUES ('6', 'vas4铜球阀发他大二个', '2015-06-30 21:03:38', '7', '7');
 INSERT INTO `comment` VALUES ('7', '和大三金佛', '2015-06-30 21:04:10', '7', '7');
@@ -61,12 +61,12 @@ CREATE TABLE `notice` (
 -- Records of notice
 -- ----------------------------
 INSERT INTO `notice` VALUES ('1', '作业', 'v点开放女内存卡零售价女大三才v激动啥', '2015-05-20');
-INSERT INTO `notice` VALUES ('2', '高温', '由于重庆连续高温，所有学校决定李燕在寝室睡觉', '2015-06-04');
+INSERT INTO `notice` VALUES ('2', '高温', '由于连续高温，所有学校决定下雨在寝室睡觉', '2015-06-04');
 INSERT INTO `notice` VALUES ('3', '放假', '放假48天', '2015-06-16');
-INSERT INTO `notice` VALUES ('4', '关于骆成龙求婚', '该事件惊动了党中央，国务院，全国房价520天', '2015-06-20');
-INSERT INTO `notice` VALUES ('5', '龙龙儿在快乐时间', '大吃了一顿，小吃了一碗，那感觉，fell 倍儿爽', '2015-06-26');
-INSERT INTO `notice` VALUES ('6', '燕儿', '飞飞飞飞', '2015-06-28');
-INSERT INTO `notice` VALUES ('7', '718的大学生活', '林伯云今天又超神啦', '2015-06-30');
+INSERT INTO `notice` VALUES ('4', '关于某通知的更改', '该事件惊动了党中央，国务院，全国房价520天', '2015-06-20');
+INSERT INTO `notice` VALUES ('5', '在快乐时间', '大吃了一顿，小吃了一碗，那感觉，fell 倍儿爽', '2015-06-26');
+INSERT INTO `notice` VALUES ('6', '说啥呢', '飞飞飞飞', '2015-06-28');
+INSERT INTO `notice` VALUES ('7', '大学生的大学生活', '还是你发的啥符号打车你打算回复', '2015-06-30');
 
 -- ----------------------------
 -- Table structure for post
@@ -91,10 +91,10 @@ CREATE TABLE `post` (
 -- ----------------------------
 -- Records of post
 -- ----------------------------
-INSERT INTO `post` VALUES ('7', '重庆理工大学暑假长达48天', '重庆理工大学正式通知于2015年7月17日正式放假，9月5日正式上课！', '2014-01-27 11:11:11', '2', '16', '48');
-INSERT INTO `post` VALUES ('8', '发的萨芬撒地方将', '疯狂送积分女警的返回南京的几率凯撒打算', '2015-06-27 23:55:30', '2', '16', '8');
-INSERT INTO `post` VALUES ('9', '哈哈haha', 'v放大镜第三方尽快发来风景', '2015-06-28 01:06:40', '2', '19', '22');
-INSERT INTO `post` VALUES ('10', '我在发论坛', '哦是真的再发论坛分砀山龙卷风kdsackajfjjdksajfjafkldjsfjsl;fj;asjflajflsajlfdjafjsljfkladsks;kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjfjlajldsjdcnafksdjfj fdsj;jjfajfjdsljfolfdj;激发肌肤is金佛的的大家撒积分卡积分卡积分', '2015-06-29 15:20:14', '2', '17', '13');
+INSERT INTO `post` VALUES ('7', '中国XX大学暑假长达48天', '某大学正式通知于2015年7月17日正式放假，9月5日正式上课！', '2014-01-27 11:11:11', '2', '16', '50');
+INSERT INTO `post` VALUES ('8', '发的萨芬撒地方将', '疯狂送积分女警的返回南京的几率凯撒打算', '2015-06-27 23:55:30', '2', '16', '9');
+INSERT INTO `post` VALUES ('9', '哈哈haha', 'v放大镜第三方尽快发来风景', '2015-06-28 01:06:40', '2', '19', '23');
+INSERT INTO `post` VALUES ('10', '我在发论坛', '哦是真的再发论坛分砀山龙卷风kdsackajfjjdksajfjafkldjsfjsl;fj;asjflajflsajlfdjafjsljfkladsks;kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjfjlajldsjdcnafksdjfj fdsj;jjfajfjdsljfolfdj;激发肌肤is金佛的的大家撒积分卡积分卡积分', '2015-06-29 15:20:14', '2', '17', '14');
 INSERT INTO `post` VALUES ('11', '大家思考了', '接撒谎发', '2015-06-29 15:20:58', '2', '18', '2');
 
 -- ----------------------------
@@ -138,8 +138,8 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', '李燕', 'ly', '123', '2', '1043208487@qq.com', '女', 'images/icon.jpg');
-INSERT INTO `user` VALUES ('2', '罗建华', 'Tylar', '554554', '2', '897323459@qq.com', '男', 'images/icon.jpg');
+INSERT INTO `user` VALUES ('1', 'Sylar', 'ly', '123', '2', '123456798@qq.com', '女', 'images/icon.jpg');
+INSERT INTO `user` VALUES ('2', '洛先森', 'Tylar', '554554', '2', '654321897@qq.com', '男', '/MyForum/images/head/logo.jpg');
 INSERT INTO `user` VALUES ('6', 'aa', 'aa', 'aa', '2', 'none', 'none', 'images/icon.jpg');
 INSERT INTO `user` VALUES ('7', 'cc', 'cc', 'cc', '2', 'none', 'none', 'images/icon.jpg');
 INSERT INTO `user` VALUES ('8', '洛洛', 'ddd', 'dddddd', '2', 'none', 'none', 'images/icon.jpg');
